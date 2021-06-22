@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Scraper";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Scraper</h1>
+	<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+	
+</div>
+<form style="max-width:600px;" asp-area="Home" asp-page="/Home/ScrapeSearch" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+
+	<div class="form-group">
+		<label>URL</label>
+		<input type="text" class="form-control" />
+	</div>
+
+	<label>Keywords</label>
+	<input type="text" class="form-control" />
+
+	<button type="submit" class="btn btn-primary text-right mt-3">Submit</button>
+</form>
