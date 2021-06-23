@@ -1,0 +1,23 @@
+{
+  "name": "scraper-itdp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LewisJohnson/Scraper-ITDP.git"
+  },
+  "author": "Lewis Johnson",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/LewisJohnson/Scraper-ITDP/issues"
+  },
+  "homepage": "https://github.com/LewisJohnson/Scraper-ITDP#readme",
+  "dependencies": {
+    "@vue/cli": "^4.5.13",
+    "vue": "^3.1.1"
+  }
+}

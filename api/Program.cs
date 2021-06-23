@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Scraper_ITDP
+namespace ScraperAPI
 {
 	public class Program
 	{
